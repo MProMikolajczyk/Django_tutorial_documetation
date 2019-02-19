@@ -85,6 +85,8 @@ DATABASES = {
         'HOST': '127.0.0.1',
         'OPTIONS': {
           'autocommit': True,
+            'sql_mode': 'STRICT_TRANS_TABLES',
+            'use_pure': True
         },
     }
 }
